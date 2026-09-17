@@ -13,6 +13,22 @@ be used from the command line or through a Streamlit web interface.
 - Displays the report and clickable source links in Streamlit.
 - Reuses the compiled LangGraph workflow between Streamlit reruns.
 
+## Screenshots
+
+### Research query and generated report
+
+The Streamlit interface provides a prefilled research query, a Research button,
+and the generated report with its summary and key findings.
+
+![Web Research Agent query form and report](assets/app_ui_1.png)
+
+### Findings and sources
+
+The report includes synthesized findings, cited source references, and an
+expandable Sources section containing links returned by Tavily.
+
+![Web Research Agent findings and sources](assets/app_ui_2.png)
+
 ## Architecture
 
 The application has two layers:
