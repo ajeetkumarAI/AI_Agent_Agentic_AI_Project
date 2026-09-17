@@ -1,0 +1,9 @@
+Document Q&A Agent Sample
+
+Project purpose: The Document Q&A Agent answers questions about local documents.
+
+Supported formats: PDF, DOCX, TXT, Markdown, CSV, JSON, and HTML.
+
+Workflow: The agent validates the file, loads the content with LlamaIndex, creates a vector index, and answers questions with OpenAI.
+
+Question for testing: What formats does the project support?

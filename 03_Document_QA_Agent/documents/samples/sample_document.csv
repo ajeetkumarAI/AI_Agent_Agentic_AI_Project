@@ -1,0 +1,4 @@
+topic,detail
+purpose,The Document Q&A Agent answers questions about local documents.
+supported_formats,"PDF, DOCX, TXT, Markdown, CSV, JSON, and HTML"
+workflow,"Validate the file, load content with LlamaIndex, create a vector index, and answer with OpenAI"

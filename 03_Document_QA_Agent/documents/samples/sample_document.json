@@ -1,0 +1,11 @@
+{
+  "title": "Document Q&A Agent Sample",
+  "purpose": "Answer questions about local documents.",
+  "supported_formats": ["PDF", "DOCX", "TXT", "Markdown", "CSV", "JSON", "HTML"],
+  "workflow": [
+    "Validate the document path",
+    "Load content with LlamaIndex",
+    "Create a vector index",
+    "Answer questions with OpenAI"
+  ]
+}

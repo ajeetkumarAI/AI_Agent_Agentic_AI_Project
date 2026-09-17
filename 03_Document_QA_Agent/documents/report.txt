@@ -1,0 +1,10 @@
+Sample Company Report
+
+This sample document demonstrates the Document Q&A Agent.
+
+The project provides document question answering with LlamaIndex and OpenAI.
+It supports PDF, DOCX, TXT, Markdown, CSV, JSON, and HTML files.
+
+The recommended workflow is to place a document in the documents folder,
+create a vector index, and ask either one question or several follow-up
+questions in interactive mode.
