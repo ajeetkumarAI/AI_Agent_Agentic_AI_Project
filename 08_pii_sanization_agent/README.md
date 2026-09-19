@@ -117,6 +117,7 @@ without importing the production module.
   },
   "error": null
 }
+```
 
 ## UI Screenshots
 
@@ -133,4 +134,3 @@ The audit panel shows the safety score, risk category, detected entity types,
 and sanitization status without exposing the original PII.
 
 ![PII Sanitization Agent audit details](assets/app_ui_2.png)
-```
